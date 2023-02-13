@@ -24,7 +24,7 @@ const Navbar = () => {
                             >Home</NavLink></li>
                         <li className="nav-list__item">
                             <NavLink 
-                            to="/projects" 
+                            to="/project" 
                             className={({isActive}) => isActive ? activeLink : noActiveLink}
                             >Projects</NavLink>
                         </li>
